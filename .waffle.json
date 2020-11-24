@@ -1,0 +1,19 @@
+{
+  "compilerVersion": "0.7.0",
+  "outputType": "multiple",
+  "compilerOptions": {
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode.object",
+          "evm.deployedBytecode.object",
+          "abi",
+          "evm.bytecode.sourceMap",
+          "evm.deployedBytecode.sourceMap",
+          "metadata"
+        ],
+        "": ["ast"]
+      }
+    }
+  }
+}
